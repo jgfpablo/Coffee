@@ -47,7 +47,20 @@
     font-size: 32px;
 }
 
+.header .nav ul{
+    animation-duration: 2s;
+    animation-name: slide;
+}
 
+@keyframes slide {
+    0% {
+        margin-left: 150%;
+    }
+
+    100% {
+        margin-left: 0%;
+    }
+}
 
 
 
@@ -58,10 +71,6 @@
 
 /* ------------------------------------------------MAIN/Index--------------------------------------------------------- */
 
-
-.main{
-
-}
 
 .main .hero{
     position: relative;
