@@ -1,0 +1,33 @@
+
+
+
+.historia {
+    display: flex;
+    justify-content: center;
+
+    .nosotros {
+        align-items: center;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .nosotros-img{
+            margin-top: 5px;
+        }
+
+        .nosotros-text {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-self: center;
+            align-items: center;
+        }
+    }
+
+}
+
+.w-80 {
+    width: 80%;
+}
