@@ -13,7 +13,7 @@
         display: flex;
         justify-content: center;
         &:hover{
-            background-color: $color;
+            background-color: map-get($var, color );
         }
 
         a{
@@ -49,7 +49,7 @@
                 padding: 16px;
                 color: white;
                 &:hover{
-                    color: $color-hover !important;
+                    color: map-get($var , color-hover ) !important;
                 }
         
         }

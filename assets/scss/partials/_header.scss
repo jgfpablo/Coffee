@@ -8,11 +8,11 @@ header{
             animation-name: slide;
             li{
                 .active{
-                    color: $color !important;
+                    color: map-get($var,color) !important;
                 }
                 a{
                     &:hover{
-                        color: $color-hover;
+                        color: map-get($var , color-hover );
                     }
                 }
             }

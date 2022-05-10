@@ -1,6 +1,24 @@
+@mixin color-texto($color,$size){
+    color: $color;
+    font-size: $size;
+}
+
 
 .index-text-card {
     display: flex;
     justify-content: center;
     padding: 30px;
+}
+
+.bg-img{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+}
+
+.color-titulo-card-index-1{
+@include color-texto(yellow,2rem)
+}
+
+.color-titulo-card-index-2{
+    @include color-texto(orange,3rem)
 }

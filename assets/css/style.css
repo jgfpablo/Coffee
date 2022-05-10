@@ -110,6 +110,18 @@ a {
   justify-content: center;
   padding: 30px; }
 
+.bg-img {
+  background-image: url("../img/fondo.jpg");
+  background-size: cover; }
+
+.color-titulo-card-index-1 {
+  color: yellow;
+  font-size: 2rem; }
+
+.color-titulo-card-index-2 {
+  color: orange;
+  font-size: 3rem; }
+
 .historia {
   display: flex;
   justify-content: center; }
@@ -132,14 +144,27 @@ a {
 .w-80 {
   width: 80%; }
 
+.products-text, .products-text-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center; }
+
+.products-text-title {
+  min-height: 180px; }
+
 .products {
   border: 1px solid white;
   margin: 20px; }
 
-.products-text {
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-align: center; }
+.bg-img {
+  background-image: url("../img/fondo.jpg");
+  background-size: cover; }
+
+.img-products {
+  max-width: 240px;
+  min-width: 240px;
+  max-height: 240px;
+  min-height: 240px; }
 
 .resenas {
   border: 1px solid white;
@@ -157,6 +182,15 @@ a {
 
 .border-100 {
   border-radius: 100%; }
+
+.text-card {
+  min-height: 168px; }
+
+.imagen-resena {
+  min-width: 230px;
+  min-height: 180px;
+  max-width: 230px;
+  max-height: 180px; }
 
 section article div iframe {
   min-height: 350px;
@@ -176,6 +210,12 @@ section div div .contact-text-card {
   display: flex;
   justify-content: center;
   padding: 30px; }
+
+.color {
+  padding-top: 10px;
+  color: #d3ad7f; }
+  .color:hover {
+    color: #af8b5f; }
 
 .tachar {
   text-decoration: line-through; }
