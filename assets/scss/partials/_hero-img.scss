@@ -4,11 +4,12 @@
 main {
     .hero {
         position: relative;
+
         div {
 
             .title-hero {
                 font-size: 2rem;
-                color: map-get($var, color );
+                color: map-get($var, color);
             }
 
             .text-hero {

@@ -1,11 +1,10 @@
-
 .products-text {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
 }
 
-.products-text-title{
+.products-text-title {
     @extend .products-text;
     min-height: 180px;
 }
@@ -15,12 +14,12 @@
     margin: 20px;
 }
 
-.bg-img{
+.bg-img {
     background-image: url("../img/fondo.jpg");
     background-size: cover;
 }
 
-.img-products{
+.img-products {
     max-width: 240px;
     min-width: 240px;
     max-height: 240px;

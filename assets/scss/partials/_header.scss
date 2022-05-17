@@ -1,27 +1,31 @@
 @import "../variables/variables.scss";
 
-header{
-    // color: white;
-    nav{
-        div{
-            .logo{
-                color: map-get($var , color ) !important;
+header {
+
+    nav {
+        div {
+            .logo {
+                color: map-get($var, color) !important;
                 font-size: 1.8rem;
-                &:hover{
-                    color: map-get($var , color-hover ) !important;
+
+                &:hover {
+                    color: map-get($var, color-hover) !important;
                 }
             }
         }
-        ul{
+
+        ul {
             animation-duration: 2s;
             animation-name: slide;
-            li{
-                .active{
-                    color: map-get($var,color) !important;
+
+            li {
+                .active {
+                    color: map-get($var, color) !important;
                 }
-                a{
-                    &:hover{
-                        color: map-get($var , color-hover );
+
+                a {
+                    &:hover {
+                        color: map-get($var, color-hover);
                     }
                 }
             }

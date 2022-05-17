@@ -10,7 +10,7 @@ section {
 
             .color {
                 padding-top: 10px;
-                color: map-get($var , color )
+                color: map-get($var, color)
             }
         }
 
@@ -21,8 +21,9 @@ section {
             font-size: 7rem;
             color: white;
             text-decoration: none;
+
             &:hover {
-                color:map-get($var , color-hover );
+                color: map-get($var, color-hover);
             }
         }
 
@@ -38,8 +39,9 @@ section {
 
 .color {
     padding-top: 10px;
-    color: map-get($var , color );
-    &:hover{
-        color: map-get($var , color-hover );
+    color: map-get($var, color);
+
+    &:hover {
+        color: map-get($var, color-hover);
     }
 }
