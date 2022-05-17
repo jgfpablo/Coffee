@@ -6,21 +6,26 @@
     margin-top: 10px;
 
     .menu ul li{
-        padding: 10px;
+        width: 110px;
+        height: 46px;
         margin: 10px;
         border: 1px solid white;
-        width: 100px;
+        // width: 110px;
         display: flex;
-        justify-content: center;
+     
         &:hover{
             background-color: map-get($var, color );
         }
-
         a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
             text-decoration: none;
             color: white;
             &:hover{
-                color: white !important;
+                color: black !important;
             }
         }
     }
@@ -58,7 +63,3 @@
 }
 
 
-a {
-    text-decoration: none;
-    color: white;
-}

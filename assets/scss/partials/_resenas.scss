@@ -29,3 +29,21 @@
     max-width: 230px;
     max-height: 180px;
 }
+
+.button{
+    align-items: center;
+    background-color: map-get($var , color );
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    padding: 1.4rem;
+    font-weight: 700;
+    &:hover{
+        transform: translateY(-1px);
+        background-color: map-get($var , color-hover );       
+    }
+}

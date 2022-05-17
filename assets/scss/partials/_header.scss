@@ -1,8 +1,17 @@
 @import "../variables/variables.scss";
 
 header{
-    color: white;
+    // color: white;
     nav{
+        div{
+            .logo{
+                color: map-get($var , color ) !important;
+                font-size: 1.8rem;
+                &:hover{
+                    color: map-get($var , color-hover ) !important;
+                }
+            }
+        }
         ul{
             animation-duration: 2s;
             animation-name: slide;
@@ -19,6 +28,11 @@ header{
         }
     }
 }
+
+// .logo{
+//     color: map-get($var , color );
+// }
+
 
 @keyframes slide {
     0% {

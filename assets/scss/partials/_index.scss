@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     padding: 30px;
+    
 }
 
 .bg-img{
@@ -15,10 +16,7 @@
     background-size: cover;
 }
 
-.color-titulo-card-index-1{
-@include color-texto(yellow,2rem)
-}
-
-.color-titulo-card-index-2{
-    @include color-texto(orange,3rem)
+.color-titulo-card-index{
+@include color-texto(map-get($var , color ),2rem);
+text-align:center;
 }

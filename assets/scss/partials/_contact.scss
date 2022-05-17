@@ -19,7 +19,8 @@ section {
     div {
         .f {
             font-size: 7rem;
-
+            color: white;
+            text-decoration: none;
             &:hover {
                 color:map-get($var , color-hover );
             }
