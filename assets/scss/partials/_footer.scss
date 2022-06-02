@@ -6,11 +6,12 @@
     margin-top: 10px;
 
     .menu ul li {
-        width: 110px;
+        width: 105px;
         height: 46px;
-        margin: 10px;
+        margin: 5px;
         border: 1px solid white;
         display: flex;
+        justify-content: center;
 
         &:hover {
             background-color: map-get($var, color);
